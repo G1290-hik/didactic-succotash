@@ -1,4 +1,4 @@
-import 'package:animation_playground/implicit_examples/implicitly_animated_screen.dart';
+import 'package:animation_playground/explicit_examples/loading_animation.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: ImplicitlyAnimatedScreen(),
+      home: RadialProgressAnimation(progress: .75, color: Colors.blueGrey),
     );
   }
 }

@@ -75,7 +75,7 @@ class _ImplicitlyAnimatedScreenState extends State<ImplicitlyAnimatedScreen> {
                 Container(
                   alignment: Alignment.center,
                   height: constraints.maxHeight * 0.2,
-                  child: AnimatedText(),
+                  child: const AnimatedText(),
                 ),
                 const Divider(),
                 const Text(
