@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class ShoppingCartButton extends StatefulWidget {
-  const ShoppingCartButton({super.key});
+class AlignExample extends StatefulWidget {
+  const AlignExample({super.key});
 
   @override
-  State<ShoppingCartButton> createState() => _ShoppingCartButtonState();
+  State<AlignExample> createState() => _AlignExampleState();
 }
 
-class _ShoppingCartButtonState extends State<ShoppingCartButton> {
+class _AlignExampleState extends State<AlignExample> {
   bool isClicked = false;
   bool isAlignedTop = true;
 

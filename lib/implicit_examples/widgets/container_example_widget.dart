@@ -2,14 +2,14 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-class AnimatedColorPalette extends StatefulWidget {
-  const AnimatedColorPalette({super.key});
+class ContainerExample extends StatefulWidget {
+  const ContainerExample({super.key});
 
   @override
-  State<AnimatedColorPalette> createState() => _AnimatedColorPaletteState();
+  State<ContainerExample> createState() => _ContainerExampleState();
 }
 
-class _AnimatedColorPaletteState extends State<AnimatedColorPalette> {
+class _ContainerExampleState extends State<ContainerExample> {
   List<Color> currentPalette = generateRandomPalette();
 
   static List<Color> generateRandomPalette() {
