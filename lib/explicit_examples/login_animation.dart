@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+//Used Fade,Scale and Slide Transitions
 class LoginScreenAnimation extends StatefulWidget {
   const LoginScreenAnimation({super.key});
 
